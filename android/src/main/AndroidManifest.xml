@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+      Package visibility (Android 11+): without these entries every
+      root-manager and tool lookup reports "not installed". Declaring specific
+      packages does not need QUERY_ALL_PACKAGES. A host that does not want a
+      given entry can drop it from its own manifest with
+      tools:node="remove". Keep in sync with EnvironmentChecks.rootManagerPackages
+      and InstrumentationChecks.toolPackages.
+    -->
+    <queries>
+        <!-- Root managers -->
+        <package android:name="com.noshufou.android.su" />
+        <package android:name="com.noshufou.android.su.elite" />
+        <package android:name="eu.chainfire.supersu" />
+        <package android:name="com.koushikdutta.superuser" />
+        <package android:name="com.thirdparty.superuser" />
+        <package android:name="com.yellowes.su" />
+        <package android:name="com.topjohnwu.magisk" />
+        <package android:name="me.weishu.kernelsu" />
+        <!-- Hooking frameworks -->
+        <package android:name="de.robv.android.xposed.installer" />
+        <package android:name="org.meowcat.edxposed.manager" />
+        <package android:name="org.lsposed.manager" />
+        <package android:name="com.saurik.substrate" />
+        <!-- Traffic capture -->
+        <package android:name="com.raureif.inetstat" />
+        <package android:name="com.egorovandreyrm.pcapremote" />
+        <package android:name="com.minhui.networkcapture" />
+        <package android:name="app.greyshirts.sslcapture" />
+        <!-- Patchers and memory editors -->
+        <package android:name="catch_.me_.if_.you_.can_" />
+        <package android:name="com.github.nicehash.luckypatchers" />
+        <package android:name="com.chelpus.lackypatch" />
+        <package android:name="com.forpda.lp" />
+        <!-- App cloners / virtual environments -->
+        <package android:name="com.bly.dkplat" />
+        <package android:name="com.lbe.parallel.intl" />
+        <package android:name="io.va.exposed" />
+    </queries>
+</manifest>

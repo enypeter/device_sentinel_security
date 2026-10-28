@@ -1,9 +1,9 @@
 name: device_sentinel_security
 description: >-
-  Client-side device security checks for Flutter: emulator, root, jailbreak,
-  debugger, Frida, hooking and tamper detection, plus a runtime monitor and a
-  host-configurable block / warn policy.
-version: 0.1.0
+  Client-side Flutter device security checks: emulator, root, jailbreak,
+  debugger, Frida, hooking and tamper detection, with a runtime monitor and
+  block/warn policy.
+version: 0.1.1
 homepage: https://github.com/enypeter/device_sentinel_security
 repository: https://github.com/enypeter/device_sentinel_security
 topics:

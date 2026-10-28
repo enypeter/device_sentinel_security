@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'device_sentinel_security'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Client-side jailbreak, simulator, debugger, Frida, hooking and tamper checks for Flutter.'
   s.description      = <<-DESC
 Native iOS side of the device_sentinel_security Flutter plugin: jailbreak,
